@@ -2,6 +2,13 @@
 A lightweight development server for local static and PHP sites.
 > This repository is for Knerve releases. See https://tenkinetic.github.io for details on the software.
 
+* 1.0.7:<br/>
+https://github.com/tenKinetic/Knerve/releases/tag/v1.0.7<br/>
+ * Fixed failure to fully terminate some unserviceable requests.
+ * Forwarded all directory level requests if they do not have a trailing slash.
+ * Continued startup procedure when starting DNS server results in EADDRINUSE in case the existing server also provides the .dev domain. Future versions will validate the .dev domain when this error is detected.
+ * Added ability to edit settings file. MySQL start and stop commands can be edited as well as sites list.
+
 * 1.0.6:<br/>
 https://github.com/tenKinetic/Knerve/releases/tag/v1.0.6<br/>
  * Added support for range headers.
