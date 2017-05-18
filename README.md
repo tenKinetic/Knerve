@@ -2,6 +2,10 @@
 A lightweight development server for local static and PHP sites.
 > This repository is for Knerve releases. See https://tenkinetic.github.io for details on the software.
 
+* 1.0.8:<br/>
+https://github.com/tenKinetic/Knerve/releases/tag/v1.0.8<br/>
+ * Fixed xip.io support for network devices.
+
 * 1.0.7:<br/>
 https://github.com/tenKinetic/Knerve/releases/tag/v1.0.7<br/>
  * Fixed failure to fully terminate some unserviceable requests.
