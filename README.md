@@ -2,6 +2,15 @@
 A lightweight development server for local static and PHP sites.
 > This repository is for Knerve releases. See https://tenkinetic.github.io for details on the software.
 
+* 1.0.10:<br/>
+https://github.com/tenKinetic/Knerve/releases/tag/v1.0.10<br/>
+ * Changed from .dev to .knerve.
+ * Added support for basic authentication. This is currently enabled by editing the settings file. For a given site, add:
+ ```basicAuth: {
+   username: 'u',
+   password: 'p'
+ }```
+
 * 1.0.9:<br/>
 https://github.com/tenKinetic/Knerve/releases/tag/v1.0.9<br/>
  * Fixed path error for static files with query strings.
