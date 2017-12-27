@@ -6,10 +6,12 @@ A lightweight development server for local static and PHP sites.
 https://github.com/tenKinetic/Knerve/releases/tag/v1.0.10<br/>
  * Changed from .dev to .knerve.
  * Added support for basic authentication. This is currently enabled by editing the settings file. For a given site, add:
- ```basicAuth: {
+ ```
+ basicAuth: {
    username: 'u',
    password: 'p'
- }```
+ }
+ ```
 
 * 1.0.9:<br/>
 https://github.com/tenKinetic/Knerve/releases/tag/v1.0.9<br/>
