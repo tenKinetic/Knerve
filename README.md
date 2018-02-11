@@ -2,6 +2,19 @@
 A lightweight development server for local static and PHP sites.
 > This repository is for Knerve releases. See https://tenkinetic.github.io for details on the software.
 
+* 1.0.13:<br/>
+https://github.com/tenKinetic/Knerve/releases/tag/v1.0.13<br/>
+ * Output results of commands for which errors need to be analysed to file so all startup commands can be executed in a single script requiring only one password prompt.
+
+* 1.0.12:<br/>
+https://github.com/tenKinetic/Knerve/releases/tag/v1.0.12<br/>
+ * Write system commands to file to execute as a batch to reduce password prompts on systems with TTY tickets enabled until command results are piped to file to be parsed (at which point only one prompt should be required at startup and one at shutdown - currently two are required at startup).
+
+* 1.0.11:<br/>
+https://github.com/tenKinetic/Knerve/releases/tag/v1.0.11<br/>
+ * Added xip.knerve.192.168.0.1.xip.io which lists links to all sites
+ * The IP address to use in the URL above is displayed on rollover of the logo in the Knerve window
+
 * 1.0.10:<br/>
 https://github.com/tenKinetic/Knerve/releases/tag/v1.0.10<br/>
  * Changed from .dev to .knerve.
