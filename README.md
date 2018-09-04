@@ -3,6 +3,7 @@ A lightweight development server for local static and PHP sites.
 > This repository is for Knerve releases. See https://tenkinetic.github.io for details on the software.
 
 * 1.1.1:<br/>
+https://github.com/tenKinetic/Knerve/releases/tag/v1.1.1<br/>
  * Add option to run at startup
 
 * 1.0.13:<br/>
